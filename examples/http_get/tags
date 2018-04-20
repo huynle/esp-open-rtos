@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/059ed2c/
+PROGRAM	Makefile	/^PROGRAM=http_get$/;"	m
+WEB_PATH	http_get.c	/^#define WEB_PATH /;"	d	file:
+WEB_PORT	http_get.c	/^#define WEB_PORT /;"	d	file:
+WEB_SERVER	http_get.c	/^#define WEB_SERVER /;"	d	file:
+WIFI_PASS	include/private_ssid_config.h	/^#define WIFI_PASS /;"	d
+WIFI_SSID	include/private_ssid_config.h	/^#define WIFI_SSID /;"	d
+http_get_task	http_get.c	/^void http_get_task(void *pvParameters)$/;"	f	typeref:typename:void
+user_init	http_get.c	/^void user_init(void)$/;"	f	typeref:typename:void

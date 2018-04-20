@@ -39,6 +39,12 @@ void usage(void) {
         );
 }
 
+/*
+   Takes the characters that are being passed in through the serial connection.
+   If echo is turned on, then it will send the same char back on the serial line.
+
+   This will be a useful function for later!
+*/
 size_t tty_readline(char *buffer, size_t buf_size, bool echo) {
     size_t i = 0;
     int c;

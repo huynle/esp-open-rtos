@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/059ed2c/
+EXTRA_COMPONENTS	Makefile	/^EXTRA_COMPONENTS=extras\/cpp_support$/;"	m
+MyQueue	cpp_tasks.cpp	/^esp_open_rtos::thread::queue_t<uint32_t> MyQueue;$/;"	v	typeref:typename:esp_open_rtos::thread::queue_t<uint32_t>
+PROGRAM	Makefile	/^PROGRAM=cpp_01_tasks$/;"	m
+queue	cpp_tasks.cpp	/^    esp_open_rtos::thread::queue_t<uint32_t> queue;$/;"	m	class:task_1_t	typeref:typename:esp_open_rtos::thread::queue_t<uint32_t>	file:
+queue	cpp_tasks.cpp	/^    esp_open_rtos::thread::queue_t<uint32_t> queue;$/;"	m	class:task_2_t	typeref:typename:esp_open_rtos::thread::queue_t<uint32_t>	file:
+task	cpp_tasks.cpp	/^    void task()$/;"	f	class:task_1_t	typeref:typename:void	file:
+task	cpp_tasks.cpp	/^    void task()$/;"	f	class:task_2_t	typeref:typename:void	file:
+task_1	cpp_tasks.cpp	/^task_1_t task_1;$/;"	v	typeref:typename:task_1_t
+task_1_t	cpp_tasks.cpp	/^class task_1_t: public esp_open_rtos::thread::task_t$/;"	c	file:
+task_2	cpp_tasks.cpp	/^task_2_t task_2;$/;"	v	typeref:typename:task_2_t
+task_2_t	cpp_tasks.cpp	/^class task_2_t: public esp_open_rtos::thread::task_t$/;"	c	file:
+user_init	cpp_tasks.cpp	/^extern "C" void user_init(void)$/;"	f	typeref:typename:void
